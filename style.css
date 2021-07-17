@@ -27,10 +27,10 @@ p {
   background-attachment: fixed;
   background-repeat: no-repeat;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
-  background-size: 70vh;
   background-position: center;
   font-family: 'Open Sans Condensed', sans-serif;
   word-break: break-all;
   max-width: 600px;
   filter: contrast(1.3);
 }
+
