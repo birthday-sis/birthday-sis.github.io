@@ -18,7 +18,7 @@ body {
 }
 
 p {
-  height: 100%;
+  height: 100vh;
   font-size: 10px;
   line-height: 10px;
   background: url("./nas.jpeg");
@@ -27,11 +27,22 @@ p {
   background-attachment: fixed;
   background-repeat: no-repeat;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
-  background-size: min(100%, 70vh);
+  background-size: min(700px, 100%);
   background-position: center;
   font-family: 'Open Sans Condensed', sans-serif;
   word-break: break-all;
   max-width: 600px;
   filter: contrast(1.3);
+  animation: text 3s linear;
+}
+
+@keyframes text {
+  from {
+    font-size: 0;
+  }
+
+  to {
+    font-size: 10px;
+  }
 }
 
